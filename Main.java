@@ -11,6 +11,8 @@ public class Main {
         String name, id, choice2;
         ArrayList<Courier> couriers = new ArrayList<>();
         ArrayList<Client> clients = new ArrayList<>();
+        
+        System.out.println("Здравствуй пользователь!");
 
         while (choice != 6) {
             System.out.println("=================Меню=================");
