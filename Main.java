@@ -12,6 +12,14 @@ public class Main {
         ArrayList<Courier> couriers = new ArrayList<>();
         ArrayList<Client> clients = new ArrayList<>();
 
+        System.out.println("Приветствую тебя пользователь!!");
+        System.out.println("Нажмите кнопку чтобы продолжить...");
+
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        
+        in.nextLine();
+
         while (choice != 6) {
             System.out.println("=================Меню=================");
             System.out.println("1. Зарегистрировать нового курьера");
