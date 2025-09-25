@@ -5,7 +5,7 @@ import models.*;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.inaa);
+        Scanner in = new Scanner(System.inss);
         int choice = 0, num;
         boolean frag;
         String name, id, choice2;
